@@ -1,0 +1,29 @@
+* {
+    font-family: "Satoshi" !important;
+    font-size: 12pt !important; 
+ }
+
+ @-moz-document url-prefix("chrome://browser/content/webext-panels.xhtml") {
+    #webextpanels-window {
+        background: transparent !important;
+        background-color: transparent !important;
+    }
+}
+@-moz-document url-prefix("chrome:") {
+    #sidebar-box {
+        --local-separation: calc(var(--zen-element-separation) / 2);
+        margin: 0 0 0 var(--local-separation) !important;
+        border: none !important;
+        box-shadow: none !important;
+        #sidebar-header {
+            order: 1;
+            border: none !important;
+            border-top:  1px solid var(--sidebar-border-color) !important;;
+            font-size: 1em !important;
+            #sidebar-switcher-arrow {
+                list-style-image: url('chrome://global/skin/icons/arrow-up-12.svg') !important;;
+            }
+        }
+        background: transparent !important;
+    }
+}
