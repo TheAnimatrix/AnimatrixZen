@@ -14,3 +14,4 @@
 
 1. download sidebery source [https://github.com/mbnuqw/sidebery](https://github.com/mbnuqw/sidebery)
 2. change sidebery/src/sidebar/sidebar.html with sidebar.html provided in this repo
+3. build it, rename dist/sidebery.zip to dist/sidebery.xpi
