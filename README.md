@@ -6,6 +6,16 @@
 4. Sidebery > import addon data > sidebery.json (in this repo)
 5. Install the zen sidebery mod (allow transparency in mod settings)
 
+Gradient config:
+#112536
+#000
+#000
+#000
+#112536
+
+Rotation: 141 degrees
+Texture: ~50%
+
 ### For sidebery transparency issues:
 1. Remove your existing sidebery addon
 2. Drag and drop the provided sidebery.xpi in your add-on page
