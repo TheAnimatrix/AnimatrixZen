@@ -1,3 +1,5 @@
+# Animatrix's Zen Config
+
 1. Install "Satoshi" font. https://font.download/font/satoshi
 2. Modify userChrome.css with the one in this repo
 3. Sidebery > import addon data > sidebery.json (in this repo)
